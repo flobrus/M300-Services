@@ -1,8 +1,8 @@
 # M300-Services
-Inhalt
-bla
-bla
-bla
+## Inhalt
+
+
+
 ## Git
 ### Installation und Einrichtung
 1. Auf [GitHub](https://www.github.com) anmelden oder einen Account erstellen 
