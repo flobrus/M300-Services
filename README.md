@@ -2,8 +2,6 @@
 
 Modulidentifikation von ICT-Berufsbildung Schweiz: https://www.modulbaukasten.ch/module/300/3/de-DE?title=Plattform%C3%BCbergreifende-Dienste-in-ein-Netzwerk-integrieren V3
 
-![M300-Banner](images/Banner_M300_GitHub-Repository.png)
-
 # Lernziele
 
 Sie können Dienste (engl. Services) plattformübergreifend in einem Netzwerk von Computern verteilen.
@@ -16,13 +14,8 @@ Sie können Dienste (engl. Services) plattformübergreifend in einem Netzwerk vo
 
 ### Inhaltsverzeichnis
 
-* [10 Toolumgebung aufsetzen](10 Toolumgebung/)
-* [20 Infrastruktur-Automatisierung](2 Infrastruktur/)
-
-### Beispiele
-
-* [Infrastruktur (vagrant)](vagrant/)
-* [Container (docker)](docker/)
+* [10 Toolumgebung aufsetzen](10-Toolumgebung/)
+* [20 Infrastruktur-Automatisierung](20-Infrastruktur/)
 
 ### Allgemeine Hinweise
 
