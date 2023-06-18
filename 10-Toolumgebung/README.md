@@ -10,6 +10,7 @@
   - [VirtualBox](#virtualbox)
   - [Vagrant](#vagrant)
     - [Wichtige Befehle für Vagrant](#wichtige-befehle-für-vagrant)
+  - [Markdown (Visual Studio Code)](#markdown-visual-studio-code)
 
 ## Git
 ### Installation und Einrichtung
@@ -64,5 +65,11 @@ Mit Vagrant kann man auch VMs erstellen, jedoch um einiges einfach als nur mit V
 | `vagrant destroy`         | Stoppt die Virtuelle Maschine und zerstört sie.                   |
 
 Weitere Befehle unter: https://www.vagrantup.com/docs/cli/
-
+## Markdown (Visual Studio Code)
+Als Markdown Editor habe ich mich für Visual Studio Code entschieden. Dieses kann man einfach herunterladen und installieren. Danach kann man sein Repository folgende Extensions hinzufügen:
+- Markdown All in One (von Yu Zhang)
+- Vagrant Extension (von Marco Stanzi)
+- vscode-pdf Extension (von tomiko1207)
+- Auto Markdown TOC (huntertran.auto-markdown-toc)
+![](../Images/VisualStudioCode.png "VirtualBox")
 [⇧ **Nach oben**](#inhaltsverzeichnis)
