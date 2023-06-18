@@ -73,3 +73,4 @@ Als Markdown Editor habe ich mich für Visual Studio Code entschieden. Dieses ka
 - Auto Markdown TOC (huntertran.auto-markdown-toc)
 ![](../Images/VisualStudioCode.png "VirtualBox")
 [⇧ **Nach oben**](#inhaltsverzeichnis)
+[Hier gehts weiter mit meiner Umgebung](20-Infrastruktur/)
