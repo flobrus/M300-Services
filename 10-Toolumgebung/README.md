@@ -2,11 +2,13 @@
 
 ## Inhaltsverzeichnis
 
-- [Toolumgebung](#Toolumgebung)
+- [Toolumgebung](#toolumgebung)
+  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
   - [Git](#git)
     - [Installation und Einrichtung](#installation-und-einrichtung)
+    - [Wichitge Befehle für Git](#wichitge-befehle-für-git)
+  - [VirtualBox](#virtualbox)
   - [thema](#thema)
-  - [thema](#thema-1)
 
 ## Git
 ### Installation und Einrichtung
@@ -36,5 +38,9 @@ $  git push                        #Upload bzw. Push wird durchgeführt
 ```
 ## VirtualBox
 VirtualBox ist eine von zahlreichen Virtualisierungsanwendungen. Man kann es ganz einfach von der Herstellerseite herunterladen und installieren. Anschliessend kann man ganz leicht eine Virtuelle Maschine mittels ISO Dateien erstellen.
-![](C:\Users\flori\M300\M300-Services\10-Toolumgebung\VirtualBox.png "VirtualBox")
+![](../Images/VirtualBox.png "VirtualBox")
 ## thema
+
+
+
+[⇧ **Nach oben**](#inhaltsverzeichnis)
