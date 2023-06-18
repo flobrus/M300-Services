@@ -9,6 +9,7 @@
     - [Wichitge Befehle für Git](#wichitge-befehle-für-git)
   - [VirtualBox](#virtualbox)
   - [Vagrant](#vagrant)
+    - [Wichtige Befehle für Vagrant](#wichtige-befehle-für-vagrant)
 
 ## Git
 ### Installation und Einrichtung
@@ -50,5 +51,18 @@ Mit Vagrant kann man auch VMs erstellen, jedoch um einiges einfach als nur mit V
 7. cd Pfad/zu/meiner/VagrantVM
 8. vagrant ssh
 ![](../Images/Vagrant.png "VirtualBox")
+### Wichtige Befehle für Vagrant
+
+| Befehl                    | Beschreibung                                                      |
+| ------------------------- | ----------------------------------------------------------------- | 
+| `vagrant init`            | Initialisiert im aktuellen Verzeichnis eine Vagrant-Umgebung und erstellt, falls nicht vorhanden, ein Vagrantfile |
+| `vagrant up`              |  Erzeugt und Konfiguriert eine neue Virtuelle Maschine, basierend auf dem Vagrantfile |
+| `vagrant ssh`             | Baut eine SSH-Verbindung zur gewünschten VM auf                   |
+| `vagrant status`          | Zeigt den aktuellen Status der VM an                              |
+| `vagrant port`            | Zeigt die Weitergeleiteten Ports der VM an                        |
+| `vagrant halt`            | Stoppt die laufende Virtuelle Maschine                            |
+| `vagrant destroy`         | Stoppt die Virtuelle Maschine und zerstört sie.                   |
+
+Weitere Befehle unter: https://www.vagrantup.com/docs/cli/
 
 [⇧ **Nach oben**](#inhaltsverzeichnis)
