@@ -8,7 +8,7 @@
     - [Installation und Einrichtung](#installation-und-einrichtung)
     - [Wichitge Befehle für Git](#wichitge-befehle-für-git)
   - [VirtualBox](#virtualbox)
-  - [thema](#thema)
+  - [Vagrant](#vagrant)
 
 ## Git
 ### Installation und Einrichtung
@@ -39,8 +39,16 @@ $  git push                        #Upload bzw. Push wird durchgeführt
 ## VirtualBox
 VirtualBox ist eine von zahlreichen Virtualisierungsanwendungen. Man kann es ganz einfach von der Herstellerseite herunterladen und installieren. Anschliessend kann man ganz leicht eine Virtuelle Maschine mittels ISO Dateien erstellen.
 ![](../Images/VirtualBox.png "VirtualBox")
-## thema
-
-
+## Vagrant
+Mit Vagrant kann man auch VMs erstellen, jedoch um einiges einfach als nur mit VirtualBox. Den man kann entweder fixfertige VMs herunterladen und direkt laufen lassen, ohne etwas machen zu müssen. Oder man kann selbst mit ein wenig Code eine VM erstellen und laufen lassen. Die Installation erfolgt GUI basiert und man kann alles auf den Standardeinstellungen belassen. Anschliessend kann man mittels einer Bash Konsole direkt mit dem erstellen von VMs anfangen. Mit folgenden Befehlen kann man dies ganz leicht machen:
+1. cd Wohin/auch/immer
+2. mkdir MeineVagrantVM
+3. cd MeineVagrantVM
+4. vagrant init ubuntu/xenial64
+5. vagrant up --provider virtualbox
+6. Jetzt haben wir das Vagrantfile erstellt und die VM ist in Betrieb, nun können wir via SSH darauf zugreifen:
+7. cd Pfad/zu/meiner/VagrantVM
+8. vagrant ssh
+![](../Images/Vagrant.png "VirtualBox")
 
 [⇧ **Nach oben**](#inhaltsverzeichnis)
