@@ -29,7 +29,15 @@ Vagrant.configure("2") do |config|
 end
 ```
 # Reverse Proxy
-
+Nun habe ich mit folgenden Codezeilen noch einen Reverse Proxy hinzugefügt:
+```Shell 
+    sudo apt-get install libapache2-mod-proxy-html
+    sudo apt-get install libxml2-dev
+    sudo a2enmod proxy
+    sudo a2enmod proxy_html
+    sudo a2enmod proxy_http
+    echo 'ProxyPass / http://localhost:8080/' >> /etc/apache2/sites-available/000-default.conf
+```
 # Benutzer und Rechtevergabe
 
 # SSH Tunnel
