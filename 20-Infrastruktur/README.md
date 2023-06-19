@@ -1,8 +1,13 @@
 #### Inhaltsverzeichnis
 
-* 01 - [Cloud Computing](#-cloud-computing)
-* 02 - [Infrastructure as Code](#-infrastructure-as-code)
-* 03 - [Vagrant](#-vagrant)
+- [Cloud Computing](#cloud-computing)
+    - [Arten von Cloud Computing](#arten-von-cloud-computing)
+    - [Dynamic Infrastructure Platforms](#dynamic-infrastructure-platforms)
+- [Infrastructure as Code](#infrastructure-as-code)
+    - [Definition](#definition)
+    - [Ziele](#ziele)
+    - [Tools](#tools)
+- [Vagrant](#vagrant)
 
 # Cloud Computing
 
@@ -70,8 +75,6 @@ Damit Infrastructure as Code (IaC) auf dynamischen Infrastruktur-Plattformen gen
 
 
 # Infrastructure as Code
-
-> [⇧ **Nach oben**](#inhaltsverzeichnis)
 
 **Früher** <br>
 In der "Eisenzeit" der IT, waren die IT-Systeme physikalisch an Hardware gebunden. Die Bereitstellung und Aufrechterhaltung der Infrastruktur war manuelle Arbeit. Dabei wurde viel Arbeitszeit investiert, die Systeme bereitzustellen und am Laufen zu halten. Änderungen waren hingegen teuer aufwendig.
