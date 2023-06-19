@@ -130,3 +130,5 @@ Folgende Arten von Tools werden für IaC benötigt:
 
  Nun habe ich das File verändert. Ich habe festgelegt wie viel RAM, welche IP und welches Passwort die VM hat. Meine Einstellungen habe ich dann überprüft, in dem ich via ssh auf die vm zugegriffen habe, dort musste ich das Passwort eingeben, was funktioniert hat. Anschliessend habe ich mit dem Befehl "ifconfig" die IP geprüft und mit dem Befehl "free -m" den RAM geprüft. Was beides auch richtig war.
  ![](../Images/Vagrant3.png "Vagrant3")
+ Ich habe nun der VM einen Apache Webserver und ein Portforwarding hinzugefügt.
+  ![](../Images/Vagrant4.png "Vagrant4")
