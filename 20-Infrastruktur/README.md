@@ -1,11 +1,10 @@
 #### Inhaltsverzeichnis
 
-* 01 - [Cloud Computing](#-01---cloud-computing)
-* 02 - [Infrastructure as Code](#-02---infrastructure-as-code)
-* 03 - [Vagrant](#-03---vagrant)
+* 01 - [Cloud Computing](#-cloud-computing)
+* 02 - [Infrastructure as Code](#-infrastructure-as-code)
+* 03 - [Vagrant](#-vagrant)
 
-# 01 - Cloud Computing
-======
+# Cloud Computing
 
 Cloud Computing Services Models - IaaS PaaS SaaS Explained
 
@@ -70,8 +69,7 @@ Damit Infrastructure as Code (IaC) auf dynamischen Infrastruktur-Plattformen gen
 
 
 
-# 02 - Infrastructure as Code
-======
+# Infrastructure as Code
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
@@ -123,4 +121,4 @@ Folgende Arten von Tools werden für IaC benötigt:
 * **Versionsverwaltung & Hubs**
     * Zur Versionskontrolle der Definitionsdateien und als Ablage vorbereiteter Images. (z.B. GitHub, Vagrant Boxes, Docker Hub, Windows VM)
 
- # 03 - Vagrant
+ # Vagrant
