@@ -125,3 +125,8 @@ Folgende Arten von Tools werden für IaC benötigt:
     * Zur Versionskontrolle der Definitionsdateien und als Ablage vorbereiteter Images. (z.B. GitHub, Vagrant Boxes, Docker Hub, Windows VM)
 
  # Vagrant
+ Unter Toolumgebung habe ich bereits eine VagrantVM heruntergeladen und erstellt. Ich werde nun eine weitere erstellen und diese dann bearbeiten. Ich habe sie wie im Screenshot unten aufgesetzt:
+ ![](../Images/Vagrant2.png "Vagrant2")
+
+ Nun habe ich das File verändert. Ich habe festgelegt wie viel RAM, welche IP und welches Passwort die VM hat. Meine Einstellungen habe ich dann überprüft, in dem ich via ssh auf die vm zugegriffen habe, dort musste ich das Passwort eingeben, was funktioniert hat. Anschliessend habe ich mit dem Befehl "ifconfig" die IP geprüft und mit dem Befehl "free -m" den RAM geprüft. Was beides auch richtig war.
+ ![](../Images/Vagrant3.png "Vagrant3")
