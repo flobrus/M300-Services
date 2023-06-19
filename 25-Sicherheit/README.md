@@ -1,20 +1,17 @@
 #### Inhaltsverzeichnis
 
-- [Cloud Computing](#cloud-computing)
-    - [Arten von Cloud Computing](#arten-von-cloud-computing)
-    - [Dynamic Infrastructure Platforms](#dynamic-infrastructure-platforms)
-- [Infrastructure as Code](#infrastructure-as-code)
-    - [Definition](#definition)
-    - [Ziele](#ziele)
-    - [Tools](#tools)
-- [Vagrant](#vagrant)
+- [Firewall](#firewall)
+- [Reverse Proxy](#reverse-proxy)
+- [Benutzer und Rechtevergabe](#benutzer-und-rechtevergabe)
+- [SSH Tunnel](#ssh-tunnel)
+- [LDAP](#ldap)
 
 # Firewall
 
 # Reverse Proxy
 
-# Benutzer- und Rechtevergabe
+# Benutzer und Rechtevergabe
 
-# SSH-Tunnel
+# SSH Tunnel
 
 # LDAP
