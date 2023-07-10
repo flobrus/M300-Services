@@ -74,6 +74,8 @@ Alternativ auch mit `... image ls`:
     $ docker image ls
 ```
 
+![](../Images/Docker01.png "Docker")
+
 **docker rm und docker rmi** <br>
 * `docker rm`
     *  Entfernt einen oder mehrere Container. Gibt die Namen oder IDs erfolgreich gelöschter Container zurück.
@@ -152,13 +154,14 @@ Funktionsfähigkeit überprüfen:
     $ ps -ef
     $ netstat -tulpen
 ```
+![](../Images/Dockerfile.png "Dockerfile")
 
 
 
 
 # Vergleich Vorwissen
-Ich habe davor nichts von Vagrant gewusst. Ich habe immer mühsam meine VMs mit VirtualBox oder dem VMPlayer erstellt. Durch das Modul habe ich nun Vagrant kennen gelernt und gemerkt wie einfach es eigentlich ist, eine VM zu erstellen. Ich werde in Zukunft bestimmt Vagrant oder andere ähnliche Tools benutzen um VMs zu erstellen.
+Ich habe davor schon mal was von Docker gehört gehabt, aber habe es selbst noch nie benutzt. Ich habe nun durch das Modul die wichtigsten Befehle und Anwendungsbereiche von Docker kennengelernt und denke, dass ich auch in Zukunft noch einiges damit machen werde.
 # Reflexion
-Ich bin am Anfang nur sehr langsam voran gekommen, da die Umgebung auf meinen Laptop nicht lief. Ich habe sie dann zuhause auf meinen PC eingerichtet und dort lief es dann super. Ich persönlich fand die Vagrant Umgebung aufsetzen nicht sehr spannend und bin deswegen auch nur langsam vorangekommen. Ich glaube das sieht man auch daran, dass ich erst beim letzten mal abgegeben habe. Ich muss in Zukunft schauen, dass auch wenn mir etwas nicht so spass macht, ich versuche trotzdem eine sehr gute Leistung zu erbringen.
+Da ich die Abgabe der LB02 sehr herausgezögert habe, habe ich erst viel zu spät mit der LB03 angefangen und als ich entlich mich darum kümmern wollte, war ich auch noch krank. Was bedeutet, dass ich aus eigenverschulden, nicht sehr viel machen konnte und deswegen auch meine Note in dem Modul nicht gut sein wird. Aber ich habe daraus gelernt und werde in Zukunft mich wieder darum bemühen, meine Arbeiten in den nächsten Modulen besser zu machen.
 
 [⇧ **Nach oben**](#inhaltsverzeichnis)
