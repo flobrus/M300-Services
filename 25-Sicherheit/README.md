@@ -2,14 +2,12 @@
 
 - [Firewall](#firewall)
 - [Reverse Proxy](#reverse-proxy)
-- [Benutzer und Rechtevergabe](#benutzer-und-rechtevergabe)
-- [SSH Tunnel](#ssh-tunnel)
-- [LDAP](#ldap)
 - [Vergleich Vorwissen](#vergleich-vorwissen)
 - [Reflexion](#reflexion)
 
 # Firewall
 Bis jetzt sind meine VMs komplett offen gegen aussen. Dies ist in einer produktiven Umgebung, sehr ungüstig, da Angreifer so ganz leicht auf die Umgebung zugreifen könnten. Deshalb kann man die VMs mit einer Firewall absichern. Dies geht wie folgt:
+
 **Ausgabe der offenen Ports**
 ```Shell
     $ netstat -tulpen
@@ -103,14 +101,9 @@ Die Weiterleitungen sind z.B. in `sites-enabled/001-reverseproxy.conf` eingetrag
 Mein Vagrantfile sieht nun wie folgt aus:
 ![](../Images/ReverseProxy.png "ReverseProxy")
 
-# Benutzer und Rechtevergabe
-
-# SSH Tunnel
-
-# LDAP
-
 # Vergleich Vorwissen
-
+Ich habe davor nichts von Vagrant gewusst. Ich habe immer mühsam meine VMs mit VirtualBox oder dem VMPlayer erstellt. Durch das Modul habe ich nun Vagrant kennen gelernt und gemerkt wie einfach es eigentlich ist, eine VM zu erstellen. Ich werde in Zukunft bestimmt Vagrant oder andere ähnliche Tools benutzen um VMs zu erstellen.
 # Reflexion
+Ich bin am Anfang nur sehr langsam voran gekommen, da die Umgebung auf meinen Laptop nicht lief. Ich habe sie dann zuhause auf meinen PC eingerichtet und dort lief es dann super. Ich persönlich fand die Vagrant Umgebung aufsetzen nicht sehr spannend und bin deswegen auch nur langsam vorangekommen. Ich glaube das sieht man auch daran, dass ich erst beim letzten mal abgegeben habe. Ich muss in Zukunft schauen, dass auch wenn mir etwas nicht so spass macht, ich versuche trotzdem eine sehr gute Leistung zu erbringen.
 
 [⇧ **Nach oben**](#inhaltsverzeichnis)
